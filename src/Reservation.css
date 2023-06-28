@@ -1,0 +1,96 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f2f2f2;
+  }
+  
+  .reservation-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .reservation-form h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .reservation-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .reservation-form input,
+  .reservation-form button {
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .reservation-form button {
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .reservation-form button:hover {
+    background-color: #0069d9;
+  }
+  
+  .reservation-form .error {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .seat-selection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .seat-row {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .seat-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Add the desired gap value between the middle columns */
+  }
+  
+  .seat {
+    margin: 5px;
+    width: 30px;
+    height: 30px;
+    background-color: #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .seat-booked {
+    background-color: #ff0000;
+    cursor: not-allowed;
+  }
+  
+  .seat-selected {
+    background-color: #00ff00;
+  }
+  
